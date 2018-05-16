@@ -1,6 +1,6 @@
 package testAmazon;
 
-import mainAmazon.CategoriesDropDown;
+import mainBestBuy.CategoriesDropDown;
 import org.testng.annotations.Test;
 
 public class Categories extends CategoriesDropDown {

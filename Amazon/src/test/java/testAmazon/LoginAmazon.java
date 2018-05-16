@@ -1,6 +1,6 @@
 package testAmazon;
 
-import mainAmazon.LoginToAmazon;
+import mainBestBuy.LoginToAmazon;
 import org.testng.annotations.Test;
 
 public class LoginAmazon extends LoginToAmazon {

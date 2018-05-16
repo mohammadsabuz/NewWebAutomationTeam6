@@ -1,6 +1,6 @@
 package testAmazon;
 
-import mainAmazon.SearchForIteams;
+import mainBestBuy.SearchForIteams;
 import org.testng.annotations.Test;
 
 public class SearchIteams extends SearchForIteams {

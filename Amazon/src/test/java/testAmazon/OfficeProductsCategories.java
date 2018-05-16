@@ -1,6 +1,6 @@
 package testAmazon;
 
-import mainAmazon.OfficeProducts;
+import mainBestBuy.OfficeProducts;
 import org.testng.annotations.Test;
 
 public class OfficeProductsCategories extends OfficeProducts {

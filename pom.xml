@@ -11,6 +11,11 @@
     <modules>
         <module>Generic</module>
         <module>Amazon</module>
+        <module>BestBuy</module>
+        <module>Chase</module>
+        <module>Facebook</module>
+        <module>Netflix</module>
+        <module>UnitedHealthCare</module>
     </modules>
 
     <dependencyManagement>
