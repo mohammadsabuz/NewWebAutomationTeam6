@@ -1,6 +1,6 @@
 package testAmazon;
 
-import mainBestBuy.MoviesTV;
+import mainAmazon.MoviesTV;
 import org.testng.annotations.Test;
 
 public class TVMovies extends MoviesTV {

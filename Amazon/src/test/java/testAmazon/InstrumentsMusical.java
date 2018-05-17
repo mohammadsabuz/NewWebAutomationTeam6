@@ -1,6 +1,6 @@
 package testAmazon;
 
-import mainBestBuy.MusicalInstruments;
+import mainAmazon.MusicalInstruments;
 import org.testng.annotations.Test;
 
 public class InstrumentsMusical extends MusicalInstruments {

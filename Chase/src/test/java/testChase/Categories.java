@@ -1,4 +1,4 @@
-package testAmazon;
+package testChase;
 
 import mainAmazon.CategoriesDropDown;
 import org.testng.annotations.Test;

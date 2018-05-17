@@ -1,4 +1,4 @@
-package testAmazon;
+package testBestBuy;
 
 import mainAmazon.CategoriesDropDown;
 import org.testng.annotations.Test;

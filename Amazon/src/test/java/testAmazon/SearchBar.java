@@ -1,6 +1,6 @@
 package testAmazon;
 
-import mainBestBuy.Search;
+import mainAmazon.Search;
 import org.testng.annotations.Test;
 
 public class SearchBar extends Search {

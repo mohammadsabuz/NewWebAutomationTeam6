@@ -12,7 +12,7 @@ public class CommonsEmail {
             email.setAuthenticator(new DefaultAuthenticator("Team6.selenium@gmail.com", "team612345"));
             email.setSSLOnConnect(true);
             email.setFrom("Team6.selenium@gmail.com");
-            email.setSubject("TestMail");
+            email.setSubject("Failed Test Email");
             email.setMsg("This is a test mail from Selenium Team 6");
             email.addTo("Team6.selenium@gmail.com");
             email.send();

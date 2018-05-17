@@ -1,4 +1,4 @@
-package mainBestBuy;
+package mainAmazon;
 
 import base.CommonAPI;
 

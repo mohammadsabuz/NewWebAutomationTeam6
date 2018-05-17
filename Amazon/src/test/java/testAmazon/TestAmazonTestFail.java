@@ -1,6 +1,6 @@
 package testAmazon;
 
-import mainBestBuy.AmazonTestFail;
+import mainAmazon.AmazonTestFail;
 import org.testng.annotations.Test;
 
 public class TestAmazonTestFail extends AmazonTestFail {

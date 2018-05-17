@@ -47,7 +47,7 @@ public class CommonAPI {
     @AfterMethod
     public void afterClass(ITestResult result) throws EmailException {
         if(result.getStatus()==ITestResult.FAILURE){
-        CommonsEmail.sendEmail();
+            CommonsEmail.sendEmail();
             System.out.println("Test Failed and Email sent");
         }
     }
