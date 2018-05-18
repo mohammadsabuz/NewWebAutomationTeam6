@@ -1,7 +1,6 @@
-package mainDataDriven;
+package mainAmazonDataDriven;
 
 import base.CommonAPI;
-import org.openqa.selenium.By;
 import org.testng.annotations.DataProvider;
 
 public class DataDrivenAmazonSearch extends CommonAPI {

@@ -1,10 +1,8 @@
-package testDataDriven;
+package mainFacebookDataDriven;
 
-import base.CommonAPI;
-import mainDataDriven.DataDrivenAmazonSearch;
+import mainAmazonDataDriven.DataDrivenAmazonSearch;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
-import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
 public class TestDataDrivenAmazonSearch extends DataDrivenAmazonSearch {
