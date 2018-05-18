@@ -23,7 +23,7 @@
             <!--<class name="testAmazon.TestAmazonTestFail"/>-->
 
         <!--Data Driven-->
-            <class name="testDataDriven.TestDataDrivenAmazonSearch"/>
+            <class name="testAmazonDataDriven.TestDataDrivenAmazonSearch"/>
         </classes>
     </test>
 </suite>

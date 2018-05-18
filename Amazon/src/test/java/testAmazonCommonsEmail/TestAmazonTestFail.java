@@ -1,4 +1,4 @@
-package testAmazon;
+package testAmazonCommonsEmail;
 
 import mainAmazonCommonsEmail.AmazonTestFail;
 import org.testng.annotations.Test;
