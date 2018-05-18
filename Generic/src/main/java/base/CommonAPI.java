@@ -51,6 +51,18 @@ public class CommonAPI {
             System.out.println("Test Failed and Email sent");
         }
     }
+    //ITest Result -- this is similar to Listener
+    @AfterMethod
+    public void iTestResult(ITestResult testResult){
+        if (testResult.getStatus()== ITestResult.FAILURE){
+            System.out.println("Test Failed. Method name is " + testResult.getMethod().getMethodName());
+        } else if (testResult.getStatus()==ITestResult.SUCCESS){
+            System.out.println("Test Success. Method name is " + testResult.getMethod().getMethodName());
+        }
+        if (testResult.getStatus()==ITestResult.SKIP){
+            System.out.println("Test skipped. Method name is " + testResult.getMethod().getMethodName());
+        }
+    }
     //ExtentReport
     public static ExtentReports extent;
     @BeforeSuite
