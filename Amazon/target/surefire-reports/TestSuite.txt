@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 29, Failures: 3, Errors: 0, Skipped: 26, Time elapsed: 1.135 sec <<< FAILURE!
-setUp(testAmazonCommonsEmail.TestAmazonTestFail)  Time elapsed: 0.741 sec  <<< FAILURE!
+Tests run: 29, Failures: 3, Errors: 0, Skipped: 26, Time elapsed: 1.305 sec <<< FAILURE!
+setUp(testAmazonCommonsEmail.TestAmazonTestFail)  Time elapsed: 0.864 sec  <<< FAILURE!
 org.testng.TestNGException: 
 Parameter 'useCloudEnv' is required by BeforeMethod on method setUp but has not been marked @Optional or defined
 
@@ -42,7 +42,7 @@ Parameter 'useCloudEnv' is required by BeforeMethod on method setUp but has not 
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 
-setUp(testAmazonDataDriven.TestDataDrivenAmazonSearch)  Time elapsed: 0.746 sec  <<< FAILURE!
+setUp(testAmazonDataDriven.TestDataDrivenAmazonSearch)  Time elapsed: 0.864 sec  <<< FAILURE!
 org.testng.TestNGException: 
 Parameter 'useCloudEnv' is required by BeforeMethod on method setUp but has not been marked @Optional or defined
 
@@ -82,7 +82,7 @@ Parameter 'useCloudEnv' is required by BeforeMethod on method setUp but has not 
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 
-generateReport(testAmazon.TestAmazonTestFail)  Time elapsed: 0.806 sec  <<< FAILURE!
+generateReport(testAmazon.TestAmazonTestFail)  Time elapsed: 0.944 sec  <<< FAILURE!
 java.lang.NullPointerException
 	at com.relevantcodes.extentreports.Report.terminate(Report.java:417)
 	at com.relevantcodes.extentreports.ExtentReports.close(ExtentReports.java:920)
