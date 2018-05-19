@@ -9,7 +9,11 @@
     <parameter name="os_version" value="Sierra"/>
     <parameter name="browserName" value="chrome"/>
     <parameter name="browserVersion" value="53.0"/>
+<<<<<<< HEAD
     <parameter name="url" value="http://www.facebook.com"/>
+=======
+    <parameter name="url" value="https://www.facebook.com"/>
+>>>>>>> 00ee3125d7b3acd3cc9aea0e6014609f93a38f4a
 
     <test name = "Facebook">
         <classes>

@@ -1,12 +1,12 @@
 package testAmazon;
 
-import mainAmazon.AmazonTestFail;
+import mainAmazonCommonsEmail.AmazonTestFail;
 import org.testng.annotations.Test;
 
 public class TestAmazonTestFail extends AmazonTestFail {
 
-    @Test
+   /* @Test
     public void amazonFailTestOnPurpose(){
         failTestOnPurpose();
-    }
+    }*/
 }

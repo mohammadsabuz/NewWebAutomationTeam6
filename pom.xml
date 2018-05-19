@@ -95,13 +95,7 @@
                 <artifactId>poi</artifactId>
                 <version>3.17</version>
             </dependency>
-            <dependency>
-                <groupId>org.apache.poi</groupId>
-                <artifactId>poi-ooxml</artifactId>
-                <version>3.11</version>
-            </dependency>
-
-            <!-- https://mvnrepository.com/artifact/org.apache.commons/commons-email -->
+        <!-- https://mvnrepository.com/artifact/org.apache.commons/commons-email -->
             <dependency>
                 <groupId>org.apache.commons</groupId>
                 <artifactId>commons-email</artifactId>

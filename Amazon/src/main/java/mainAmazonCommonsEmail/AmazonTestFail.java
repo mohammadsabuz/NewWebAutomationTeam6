@@ -1,4 +1,4 @@
-package mainAmazon;
+package mainAmazonCommonsEmail;
 
 import base.CommonAPI;
 
