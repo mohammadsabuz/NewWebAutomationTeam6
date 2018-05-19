@@ -1,12 +1,12 @@
 package testNetflix;
 
-import mainAmazon.CategoriesDropDown;
+
 import org.testng.annotations.Test;
 
-public class Categories extends CategoriesDropDown {
+public class Categories {
 
     @Test
     public void dropdownOfCategories(){
-        mainCategoriesdrop();
+
     }
 }

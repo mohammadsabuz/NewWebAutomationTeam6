@@ -169,6 +169,9 @@ public class CommonAPI {
     public void clickOnCss(String locator){
         driver.findElement(By.cssSelector(locator)).click();
     }
+    public void clickById(String locator) {
+        driver.findElement(By.id(locator)).click();
+    }
     public void clickOnElement(String locator){
         try {
             driver.findElement(By.cssSelector(locator)).click();
