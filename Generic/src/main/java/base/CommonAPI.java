@@ -2,6 +2,7 @@ package base;
 
 import com.relevantcodes.extentreports.ExtentReports;
 import com.relevantcodes.extentreports.LogStatus;
+import com.relevantcodes.extentreports.model.ScreenCapture;
 import commonsEmail.CommonsEmail;
 import org.apache.commons.io.FileUtils;
 import org.apache.commons.lang3.StringUtils;
