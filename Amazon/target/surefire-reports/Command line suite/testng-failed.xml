@@ -16,19 +16,6 @@
           <include name="startExtent"/>
         </methods>
       </class> <!-- testAmazonDataDriven.TestDataDrivenAmazonSearch -->
-      <class name="testAmazon.TestAmazonTestFail">
-        <methods>
-          <include name="iTestResult"/>
-          <include name="afterEachTestMethod"/>
-          <include name="amazonFailTestOnPurpose"/>
-          <include name="afterClass"/>
-          <include name="generateReport"/>
-          <include name="extentSetup"/>
-          <include name="afterMethod"/>
-          <include name="setUp"/>
-          <include name="startExtent"/>
-        </methods>
-      </class> <!-- testAmazon.TestAmazonTestFail -->
       <class name="testAmazonCommonsEmail.TestAmazonTestFail">
         <methods>
           <include name="iTestResult"/>

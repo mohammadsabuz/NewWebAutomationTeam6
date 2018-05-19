@@ -91,7 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">5 methods,  5 skipped,  </span>
+                    <span class="method-stats">4 methods,  4 skipped,  </span>
                   </li>
                   <li>
                     <span class="method-list-title skipped">Skipped methods</span>
@@ -100,11 +100,6 @@
                       <a href="#" panel-name="suite-Command_line_suite" class="show-methods skipped suite-Command_line_suite"> (show)</a> <!-- show-methods skipped suite-Command_line_suite -->
                     </span>
                     <div class="method-list-content skipped suite-Command_line_suite">
-                      <span>
-                        <img width="3%" src="skipped.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="testAmazon.TestAmazonTestFail" hash-for-method="amazonFailTestOnPurpose">amazonFailTestOnPurpose</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
                       <span>
                         <img width="3%" src="skipped.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="testAmazonCommonsEmail.TestAmazonTestFail" hash-for-method="amazonFailTestOnPurpose">amazonFailTestOnPurpose</a> <!-- method navigator-link -->
@@ -172,26 +167,6 @@ Parameter &apos;useCloudEnv&apos; is required by BeforeMethod on method setUp bu
                   <a name="testDataDrivenSearch">
                   </a> <!-- testDataDrivenSearch -->
                   <span class="method-name">testDataDrivenSearch</span>
-                  <div class="stack-trace">org.testng.TestNGException: 
-Parameter &apos;useCloudEnv&apos; is required by BeforeMethod on method setUp but has not been marked @Optional or defined
-
-... Removed 35 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Command_line_suite-class-skipped -->
-          <div class="suite-Command_line_suite-class-skipped">
-            <div class="main-panel-header rounded-window-top">
-              <img src="skipped.png"/>
-              <span class="class-name">testAmazon.TestAmazonTestFail</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="amazonFailTestOnPurpose">
-                  </a> <!-- amazonFailTestOnPurpose -->
-                  <span class="method-name">amazonFailTestOnPurpose</span>
                   <div class="stack-trace">org.testng.TestNGException: 
 Parameter &apos;useCloudEnv&apos; is required by BeforeMethod on method setUp but has not been marked @Optional or defined
 
@@ -274,27 +249,23 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(5);
+data.addRows(4);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'testDataDrivenSearch')
 data.setCell(0, 2, 'testAmazonDataDriven.TestDataDrivenAmazonSearch')
 data.setCell(0, 3, 0);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'amazonFailTestOnPurpose')
-data.setCell(1, 2, 'testAmazon.TestAmazonTestFail')
+data.setCell(1, 2, 'testAmazonCommonsEmail.TestAmazonTestFail')
 data.setCell(1, 3, 0);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'amazonFailTestOnPurpose')
-data.setCell(2, 2, 'testAmazonCommonsEmail.TestAmazonTestFail')
+data.setCell(2, 1, 'testDataDrivenSearch')
+data.setCell(2, 2, 'testAmazonDataDriven.TestDataDrivenAmazonSearch')
 data.setCell(2, 3, 0);
 data.setCell(3, 0, 3)
 data.setCell(3, 1, 'testDataDrivenSearch')
 data.setCell(3, 2, 'testAmazonDataDriven.TestDataDrivenAmazonSearch')
 data.setCell(3, 3, 0);
-data.setCell(4, 0, 4)
-data.setCell(4, 1, 'testDataDrivenSearch')
-data.setCell(4, 2, 'testAmazonDataDriven.TestDataDrivenAmazonSearch')
-data.setCell(4, 3, 0);
 window.suiteTableData['Command_line_suite']= { tableData: data, tableDiv: 'times-div-Command_line_suite'}
 return data;
 }
@@ -343,13 +314,6 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">testAmazon.TestAmazonTestFail</div> <!-- chronological-class-name -->
-              <div class="test-method">
-                <span class="method-name">amazonFailTestOnPurpose</span>
-                <span class="method-start">0 ms</span>
-              </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
               <div class="chronological-class-name">testAmazonCommonsEmail.TestAmazonTestFail</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">amazonFailTestOnPurpose</span>
@@ -374,14 +338,14 @@ return data;
             <div class="chronological-class">
               <div class="chronological-class-name">testAmazon.TestAmazonTestFail</div> <!-- chronological-class-name -->
               <div class="configuration-suite before">
-                <span class="method-name">extentSetup(org.testng.TestRunner@4f638935)</span>
+                <span class="method-name">extentSetup(org.testng.TestRunner@d83da2e)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-suite before -->
               <div class="configuration-suite after">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">generateReport</span>
-                <span class="method-start">483 ms</span>
+                <span class="method-start">378 ms</span>
               </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
